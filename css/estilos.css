@@ -1,0 +1,276 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  color: white;
+  margin: 0;
+}
+h1 strong {
+  color: #026fff;
+}
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.header {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.menu {
+  height: inherit;
+}
+.header ol {
+  display: flex;
+  height: inherit;
+}
+.header ol li {
+  height: inherit;
+}
+.header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+.aboutMe {
+  height: 300px;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.aboutMe-image{
+  object-fit: cover;
+}
+
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.portfolio {
+  background: #fafafa;
+  padding: 20px;
+}
+
+.project,
+.estudio {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-title,
+.estudio-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-type,
+.estudio-type,
+.empleo-type{
+    font-size: 20px;
+    color: #026fff;
+}
+
+.project-type,
+.project-date,
+.project-organization,
+.estudio-type {
+  margin: 10px 0;
+}
+.project-description {
+  font-size: 20px;
+}
+.project strong {
+  font-family: 'Fjalla One', sans-serif;
+}
+.project-details {
+  width: 500px;
+}
+.project-imageContainer {
+  width: 500px;
+}
+
+.estudio-details {
+  width: 850px;
+}
+.estudio-imageContainer {
+  width: 150px;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-details {
+  width: 250px;
+  text-align: center;
+}
+
+.logros {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logros-title {
+  margin-left: 20px;
+}
+
+.logro { 
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+}
+
+.logro img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.logro-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.logro-description {
+  text-align: left;
+}
+
+.empleo {
+    display: flex;
+    align-items: center;
+}
+
+.empleo-imageContainer{
+    width: 280px;
+    text-align: center;
+}
+
+.empleo-details{
+    margin: 0px;
+    padding: 0px;
+    width: 700px;
+}
+
+.contact {
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+
+.social-link.twitter {
+  background-image: url('../imagenes/contacto/twitter.svg');
+}
+.social-link.linkedin {
+  background-image: url('../imagenes/contacto/linkedin.svg');
+}
+.social-link.github {
+  background-image: url('../imagenes/contacto/github.svg');
+}
+.social-link.instagram {
+  background-image: url('../imagenes/contacto/instagram.svg');
+}
+
+.form-email input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+  background-image: url('../imagenes/contacto/envelope.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button {
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.form-email h3 { 
+  font-family: 'Source Sans Pro', sans-serif;
+}
